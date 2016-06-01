@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<staff>
+    <workers id="1">
+        <worker id="1">
+            <fullName>Ivan Ivanov</fullName>
+            <date_of_Birth>27.06.1994</date_of_Birth>
+            <date_Recruited>13/03/2015</date_Recruited>
+        </worker>
+        <worker id="2">
+            <fullName>Ivan Ivanov</fullName>
+            <date_of_Birth>27.06.1994</date_of_Birth>
+            <date_Recruited>13/03/2015</date_Recruited>
+        </worker>
+        <worker id="3">
+            <fullName>Ivan Ivanov</fullName>
+            <date_of_Birth>27.06.1994</date_of_Birth>
+            <date_Recruited>13/03/2015</date_Recruited>
+        </worker>
+    </workers>
+
+    <managers id="2">     
+        <manager id="1">   
+            <fullName>Ivan Ivanov</fullName>
+            <date_of_Birth>27.06.1985</date_of_Birth>
+            <date_Recruited>13/03/2015</date_Recruited>
+            <slave>1, 3</slave>
+        </manager>
+        <manager id="2">   
+            <fullName>Ivan Ivanov</fullName>
+            <date_of_Birth>27.06.1994</date_of_Birth>
+            <date_Recruited>13/03/2015</date_Recruited>
+            <slave>3</slave>
+        </manager>
+        <manager id="3">   
+            <fullName>Ivan Ivanov</fullName>
+            <date_of_Birth>27.06.1994</date_of_Birth>
+            <date_Recruited>13/03/2015</date_Recruited>
+            <slave>1, 2</slave>
+        </manager>
+    </managers>
+
+    <otherEmployees id="3">
+        <employee id="1">
+            <type>director</type>
+            <fullName>Ivan Ivanov</fullName>
+            <date_of_Birth>27.06.1994</date_of_Birth>
+            <date_Recruited>13/03/2015</date_Recruited>   
+            <description>says Salvage</description>
+        </employee>
+        <employee id="2">
+            <type>bughalter</type>
+            <fullName>Ivan Ivanov</fullName>
+            <date_of_Birth>27.06.1994</date_of_Birth>
+            <date_Recruited>13/03/2015</date_Recruited>   
+            <description>says Salvage</description>
+        </employee>
+        <employee id="3">
+            <type>bughalter</type>
+            <fullName>Ivan Ivanov</fullName>
+            <date_of_Birth>27.06.1994</date_of_Birth>
+            <date_Recruited>13/03/2015</date_Recruited>   
+            <description>says Salvage</description>
+        </employee>
+    </otherEmployees>
+
+</staff>
